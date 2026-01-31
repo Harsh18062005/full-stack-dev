@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Catalogue</title>
+	
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .cat-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto;
+        }
+        .cat-table, .cat-table th, .cat-table td {
+            border: 1px solid #333;
+        }
+        .cat-table th, .cat-table td {
+            padding: 9px 6px;
+            vertical-align: middle;
+            font-size: 15px;
+        }
+        .cat-table th {
+            background: #f6c29b;
+            text-align: center;
+            font-size: 1.09em;
+        }
+        .book-img {
+            width: 95px;
+            height: 115px;
+            display: block;
+            background: #eee;
+            border: 1px solid #aaa;
+            text-align: center;
+        }
+        .cat-btn {
+            background: #fecf65;
+            color: #222;
+            border: 1.2px solid #888;
+            padding: 4px 18px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 1em;
+            box-shadow: 1px 1px 1px #aaa;
+            cursor: pointer;
+        }
+        .cart-img {
+            vertical-align: middle;
+            margin-right: 6px;
+        }
+        .price {
+            font-size: 1.08em;
+            font-weight: bold;
+            color: #333;
+            text-align: right;
+        }
+        .book-info {
+            font-size: 1em;
+            color: #222;
+        }
+        .login-col { width: 120px; }
+        .desc-col { width: 300px; }
+        .price-col { width: 60px; }
+        .cart-col { width: 160px; text-align: center;}
+    </style>
+</head>
+<body>
+    <table class="cat-table">
+        <tr>
+            <th class="login-col">Login</th>
+            <th class="desc-col">Registration</th>
+            <th class="price-col">Catalogue</th>
+            <th class="cart-col">Cart</th>
+        </tr>
+        <tr>
+            <td style="text-align:center;">
+                <img src="book1.jpg" height="50" width="50" />
+            </td>
+            <td class="book-info">
+                Book: XMLBible<br>
+                Author: Winston<br>
+                Publication: Wiley
+            </td>
+            <td class="price">Rs.400</td>
+            <td>
+                <button class="cat-btn">
+                    <img src="cart-icon.png" alt="" width="16" class="cart-img">Add to cart
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center;">
+                <img src="book2.jpg" height="50" width="50" />
+            </td>
+            <td class="book-info">
+                Book: AI<br>
+                Author: S.Russel<br>
+                Publication: Princetonhall
+            </td>
+            <td class="price">Rs.560</td>
+            <td>
+                <button class="cat-btn">
+                    <img src="cart-icon.png" alt="" width="16" class="cart-img">Add to cart
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center;">
+                <img src="book3.jpg" height="50" width="50" />
+            </td>
+            <td class="book-info">
+                Book: Java 2<br>
+                Author: Watson<br>
+                Publication: BPBpublications
+            </td>
+            <td class="price">Rs.350</td>
+            <td>
+                <button class="cat-btn">
+                    <img src="cart-icon.png" alt="" width="16" class="cart-img">Add to cart
+                </button>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center;">
+                <img src="book4.jpg" height="50" width="50" />
+            </td>
+            <td class="book-info">
+                Book: HTML in 24 hours<br>
+                Author: Sam Peter<br>
+                Publication: Sampublication
+            </td>
+            <td class="price">Rs.345</td>
+            <td>
+                <button class="cat-btn">
+                    <img src="cart-icon.png" alt="" width="16" class="cart-img">Add to cart
+                </button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
